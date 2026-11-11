@@ -288,10 +288,10 @@ function ChartTip({ active, payload }) {
 export default function NetWorthProjection() {
   const [startCapital, setStartCapital] = useState(4000);
   const [splitPct, setSplitPct] = useState(25);
-  const [profitPct, setProfitPct] = useState(14.32);
-  const [lossPct, setLossPct] = useState(3.38);
-  const [winTrades, setWinTrades] = useState(4.58);
-  const [lossTrades, setLossTrades] = useState(8.91);
+  const [profitPct, setProfitPct] = useState(12.64);
+  const [lossPct, setLossPct] = useState(6.11);
+  const [winTrades, setWinTrades] = useState(3.3);
+  const [lossTrades, setLossTrades] = useState(3);
   const [months, setMonths] = useState(36);
   const [showTable, setShowTable] = useState(false);
 
@@ -331,10 +331,10 @@ export default function NetWorthProjection() {
   const reset = () => {
     setStartCapital(4000);
     setSplitPct(25);
-    setProfitPct(15.94);
-    setLossPct(5.88);
-    setWinTrades(3.62);
-    setLossTrades(3.85);
+    setProfitPct(12.64);
+    setLossPct(6.11);
+    setWinTrades(3.3);
+    setLossTrades(3);
     setMonths(24);
   };
 
